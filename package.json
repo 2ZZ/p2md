@@ -1,0 +1,31 @@
+{
+  "name": "p2md",
+  "version": "1.0.0",
+  "description": "Convert current page to markdown file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\"",
+    "build": "webpack --mode development --config webpack.js --watch"
+  },
+  "author": "2ZZ",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@postlight/mercury-parser": "^2.2.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.1",
+    "webpack-extension-manifest-plugin": "^0.5.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.1.0"
+  }
+}

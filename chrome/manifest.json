@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Page to Markdown",
+    "short_name": "p2md",
+    "version": "0.0.1",
+    "description": "Convert current page to markdown file",
+    "icons": {
+      "48": "icons/64.png"
+    },
+    "browser_action": {
+      "default_title": "Page to Markdown",
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "tabs",
+      "http://*/",
+      "https://*/"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  }
+  }
